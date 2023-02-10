@@ -6,12 +6,8 @@ header,footer {
     background-color: darkgrey;
 }
 
-.title {
-    color: midnightblue;
-}
-
 .maintitle {
-    color: midnightblue;
+    color: rgb(255, 255, 255);
 }
 
 .my-image {
