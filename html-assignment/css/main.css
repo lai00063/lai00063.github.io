@@ -22,6 +22,6 @@ header,footer {
     list-style-type: square;
   }
 
-  li:nth-child(1) { 
+  li:nth-child(2) { 
     background-color:slategrey;
   }
