@@ -1,0 +1,23 @@
+body {
+    font-family: 18px;
+}
+
+header,footer {
+    background-color: darkgrey;
+}
+
+.title {
+    color: midnightblue;
+}
+
+.maintitle {
+    color: midnightblue;
+}
+
+.my-image {
+    box-shadow: [horizontal none] [vertical placement] [blur radius2px] [optional spread radius1px] [color black];
+  }
+
+  ul {
+    list-style-type: square;
+  }
