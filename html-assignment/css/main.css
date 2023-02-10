@@ -25,3 +25,9 @@ header,footer {
   li:nth-child(2) { 
     background-color:slategrey;
   }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  a:link { text-decoration: none; }
