@@ -31,3 +31,7 @@ header,footer {
   }
 
   a:link { text-decoration: none; }
+
+  nav:hover {
+    background-color: rgb(85, 111, 136);
+  }
