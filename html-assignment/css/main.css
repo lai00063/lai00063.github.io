@@ -35,3 +35,7 @@ header,footer {
   nav:hover {
     background-color: rgb(85, 111, 136);
   }
+
+ nav a {
+    color: rgb(85, 111, 136);
+ }
