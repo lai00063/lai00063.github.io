@@ -12,16 +12,19 @@ header,footer {
 .maintitle {
     color: rgb(255, 255, 255);
 }
+footer {
+    color: floralwhite;
+}
 
-.my-image {
-    box-shadow: [horizontal none] [vertical placement] [blur radius2px] [optional spread radius1px] [color black];
+my-image {
+    box-shadow:0px 10px 2px 1px;
   }
 
   ul {
     list-style-type: square;
   }
 
-  li:nth-child(2) { 
+  li:nth-child(odd) { 
     background-color:slategrey;
   }
 
