@@ -1,5 +1,6 @@
 /* what i am wrighting for*/ /*the resion why i wright it*/
 header {
+    background-image:url("../images/lone-starfish-wide.jpg");
     text-align: center;
     margin: 100%;
     padding: 100%;
@@ -16,7 +17,6 @@ body {
     margin: auto;
 }
 nav ul {
-    background-image:url("../images/lone-starfish-wide.jpg");;
     text-align: center;
     list-style:none;
     margin: 0%;
