@@ -13,12 +13,34 @@ body {
     margin: auto;
 }
 nav ul {
+    text-align: center;
     list-style:none;
     margin: 0%;
     padding: 0%;
     display: flex;
 }
 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    height: 20px;
+    padding: 20px;
+}
+
 header {
     background-image:url("../images/lone-starfish-wide.jpg");;
+}
+
+article {
+    width: 50%;
+    float: left;
+}
+
+nav li {
+    width: 33%;
+}
+
+.float h2 {
+    float: left;
+    width: 50%;
 }
