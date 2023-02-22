@@ -2,3 +2,9 @@
 header {
 
 }
+
+.wrapper {
+    width: 1000px;
+    background-color:floralwhite;
+    margin: auto;
+}
