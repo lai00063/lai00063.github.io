@@ -1,6 +1,9 @@
 /* what i am wrighting for*/ /*the resion why i wright it*/
 header {
     text-align: center;
+    margin: 100%;
+    padding: 100%;
+    
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
