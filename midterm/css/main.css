@@ -24,7 +24,7 @@ header {
     top: 30%;
     left: 750px;
     color: rgb(255, 255, 255);
-    font-size: large;
+    font-size:xx-large;
     
  }
 body {
@@ -91,6 +91,6 @@ footer {
     color: #000;
     text-align: right;
     padding: 10px 30px;
-    background-color:rgb(161, 224, 218);
+    background-color:lightcyan;
     
 }
