@@ -73,6 +73,9 @@ li a {
     float: left;
     width: 50%;
 }
+.contacttitle {
+    margin:20px;
+}
 
 .p-float {
     clear: right;
