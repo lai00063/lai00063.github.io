@@ -1,4 +1,5 @@
-/* what i am wrighting for*/ /*the resion why i wright it*/
+
+/* use the css to add a background image so the h1 can show on top*/ 
 header {
     background-image:url("../images/lone-starfish-wide.jpg");
     margin: auto;
@@ -49,24 +50,16 @@ body {
     background-color:lightcyan;
     margin: auto;
 }
-nav ul {
+nav ul li {
+    /* make nav list in a row */ 
     text-align: center;
     list-style:none;
-    margin: 0%;
-    padding: 0%;
-
-    display: flex;
+    margin: 10%;
+    display: inline-block;
     color: black;
     overflow: hidden;
 }
 
-
-
-
-nav li {
-    float: left;
-    width: 33%;
-}
 li a {
     display: block;
     text-align: center;
@@ -89,10 +82,11 @@ li a {
     margin: 10px;
     padding: 5px;
     border-width: 2px;
-
-
-
-
-
 }
 
+footer {
+    float: right;
+    color: #000;
+    text-align: right;
+    padding: 10px 30px;
+}
