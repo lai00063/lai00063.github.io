@@ -36,10 +36,8 @@ body {
 .container{
     margin:20px;
   }
-  img{
-    width: 200px;
-    float: right;
-  }
+
+
 .wrapper {
     width: 1000px;
     background-color:lightcyan;
