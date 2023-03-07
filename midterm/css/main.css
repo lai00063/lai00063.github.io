@@ -83,10 +83,12 @@ li a {
     padding: 5px;
     border-width: 2px;
 }
-
+ /* make footer to the right and add a bg color */ 
 footer {
     float: right;
     color: #000;
     text-align: right;
     padding: 10px 30px;
+    background-color:rgb(161, 224, 218);
+    
 }
