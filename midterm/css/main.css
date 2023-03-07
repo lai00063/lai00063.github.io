@@ -49,7 +49,6 @@ nav ul li {
     /* make nav list in a row */ 
     text-align: center;
     list-style:none;
-    margin: 20%;
     display: inline-block;
     color: black;
     overflow: hidden;
