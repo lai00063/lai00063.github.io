@@ -16,6 +16,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <!-- use the id to link up -->
                     <li><a href="#story">Story</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
@@ -43,7 +44,7 @@
             <!-- use the HTML Forms from week 4 -->
             <h2 class="contacttitle" id ="contact">Contact to learn more</h2>
             <div class="contact">
-                <form action="about.html" method="get">
+                <form action="about.html" method="get" >
                 <div>
                     <label for="yourname">Your Name</label><br>
                     <input id="yourname" type="text" name="yourname">
@@ -54,7 +55,7 @@
                 </div>
                 <div>
                     <label for="yourmessage">Your Message</label><br>
-                    <textarea id="yourmessage"  name="yourmessage"></textarea>
+                    <textarea id="yourmessage"  name="yourmessage" rows="7" cols="130" ></textarea>
                 </div>
                 <h3>Would you like to visit the starfish?</h3>
                 <div>
@@ -62,13 +63,15 @@
                     <input type="radio" name="radio-answer" value="no">No
                     <input type="radio" name="radio-answer" value="other">Maybe
                 </div>
-                <input type="send" value="send">
+                <input class="send" type="button" value="send">
+                
             </div>
-        </body>
             <footer>
                 <p>&copy;Lone Starfish</p>
-                </footer>
+            </footer>
+            
     </div>
+ </body>
 
 
 </html>
