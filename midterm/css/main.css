@@ -68,11 +68,10 @@ li a {
 }
 .about_star{
     margin: 50px;
-}
-.float h2 {
     float: left;
     width: 50%;
 }
+
 
 .p-float {
     clear: right;
