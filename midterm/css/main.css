@@ -26,7 +26,7 @@ header {
 
 
  
-body footer {
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(161, 224, 218);
 }
@@ -91,5 +91,6 @@ footer {
     color: #000;
     text-align: right;
     padding: 10px 30px;
+    background-color:lightcyan;
     
 }
