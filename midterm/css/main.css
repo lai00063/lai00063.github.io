@@ -63,15 +63,10 @@ li a {
     margin: 20px;
     
 }
-.float h2 {
-    float: left;
-    width: 50%;
-}
+
 .contacttitle {
     margin:20px;
 }
-
-
 
 .contact {
     border: 1px solid black;
