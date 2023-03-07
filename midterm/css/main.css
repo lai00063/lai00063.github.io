@@ -15,10 +15,7 @@ header {
 .maintitle
 {
     text-align: center;
-    margin: 30;
-    padding: 0;
     position:absolute;
-    left: 740px;
     color: rgb(255, 255, 255);
     font-size:xx-large;
 }
@@ -27,6 +24,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(161, 224, 218);
 }
+ /* make image to the left of the text */ 
 .imageone{
     width:200px;
     height:200px;
