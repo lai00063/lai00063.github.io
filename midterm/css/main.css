@@ -68,18 +68,18 @@ li a {
 }
 .about_star{
     margin: 50px;
+    
+}
+.float h2 {
     float: left;
     width: 50%;
 }
-
 
 .p-float {
     clear: right;
 }
 
 .contact {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
     border: 1px solid black;
     margin: 20px;
     padding: 5px;
