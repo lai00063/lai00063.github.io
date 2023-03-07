@@ -15,7 +15,10 @@ header {
 .maintitle
 {
     text-align: center;
+    margin: 20;
+    padding: 0;
     position:absolute;
+    left: 750px;
     color: rgb(255, 255, 255);
     font-size:xx-large;
 }
