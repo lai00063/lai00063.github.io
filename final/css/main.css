@@ -2,7 +2,7 @@
   font-family: 'Cabin', sans-serif;
 }
 /*  media q for mobile  */
-@media screen and (max-width:720px) {
+@media screen and (max-width:760px) {
   /*this code to make the nav */
   .wrapper {
     margin: auto;
@@ -31,7 +31,7 @@
       display: block;
       padding: 10px;
       text-decoration: none;
-      color: #333;
+      color: #222;
     }
 
     .topnav input[type="text"] {
@@ -117,7 +117,7 @@
         .services section a {
           font-size: 16px;
           padding: 10px 20px;
-          border: 2px solid #000;
+          border: 2px solid #222;
           text-transform: uppercase;
           text-decoration: none;
           color: white;
@@ -139,16 +139,16 @@
   {
       font-size: 16px;
           padding: 10px 20px;
-          border: 2px solid #000;
+          border: 2px solid #222;
           text-transform: uppercase;
           text-decoration: none;
           color: white;
-          background-color: #111b46;
+          background-color: #222;
   }
   .team {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      text-align:left;
     }
     
    .team section {
@@ -205,7 +205,7 @@
       font-weight: bold;
     }
     footer {
-      background-color: #232323;
+      background-color: #222;
       width: 100%;
     }
     
@@ -234,6 +234,7 @@
   grid-template-columns: 1fr auto;
   align-items: center;
   justify-content: space-between;
+  text-align:left;
 }
 
 .topnav ul {
@@ -267,7 +268,7 @@
 header {
   background-image: url("../images/main-banner.jpg");
   padding: 3rem;
-  display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -328,6 +329,7 @@ header {
       color: #222;
     }
     .services {
+      margin-top: 40px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
@@ -370,7 +372,7 @@ header {
       padding: 10px;
       grid-row: 1;
       grid-gap: 10px;
-      
+
     }
     
     .videoproduction,
@@ -427,7 +429,14 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
+      text-align:left;
+    }
+    .team p {
+      color: #222;
+    }
+
+    .contact{
+      float: left;
     }
     table {
       border: 1px solid #222;
